@@ -96,9 +96,9 @@ Point& operator+=(Point & p, const Point& a)
 
 bool operator==(const Point & u, const Point &v)
 {
-	if(u.x() == v.x() && u.y() == v.y())
-		return true;
-	return false;
+	if(u.x()== v.x() && u.y() == v.y())
+		return  true;
+	return  false;
 };
 
 bool operator!=(const Point & u, const Point &v)
